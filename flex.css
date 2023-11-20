@@ -1,0 +1,53 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    flex-grow: 3;
+}
+.logo-img {
+    margin-right: 15px;
+}
+.header-menu {
+    flex-grow: 6;
+}
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-row {
+    display: flex;
+    flex-direction: row;
+}
+.social-networks {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-logo {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+.footer-search{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-search-input {
+    height: 40px;
+    flex-grow: 3;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+}
